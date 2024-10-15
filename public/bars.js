@@ -352,15 +352,15 @@ function tooltipImages() {
 
             if (typeof dialogueHeads[headIndex].getElementsByClassName("sasasap")[0] != "undefined") { // is it a sasasap exception
 
-                if (nameElement.innerHTML == "Siffrin") {
+                if (nameElement.innerHTML == "シフラン") {
                     nameReference = "Sapfrin";
-                } else if (nameElement.innerHTML == "Isabeau") {
+                } else if (nameElement.innerHTML == "イザボー") {
                     nameReference = "Fighter";
-                } else if (nameElement.innerHTML == "Mirabelle") {
+                } else if (nameElement.innerHTML == "ミラベル") {
                     nameReference = "Housemaiden";
-                } else if (nameElement.innerHTML == "Bonnie") {
+                } else if (nameElement.innerHTML == "ボニー") {
                     nameReference = "Kid";
-                } else if (nameElement.innerHTML == "Odile") {
+                } else if (nameElement.innerHTML == "オディール") {
                     nameReference = "Researcher";
                 }
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
@@ -376,7 +376,17 @@ function tooltipImages() {
                 if (debugMode) {console.log(`exception found: name is ${nameElement.innerHTML}, but head ${headIndex} should be referencing ${nameReference}`)};
                 
             } else { // okay it's just normal then
-                nameReference = nameElement.innerHTML;
+                if (nameElement.innerHTML == "シフラン") {
+                    nameReference = "Siffrin";
+                } else if (nameElement.innerHTML == "イザボー") {
+                    nameReference = "Isabeau";
+                } else if (nameElement.innerHTML == "ミラベル") {
+                    nameReference = "Mirabelle";
+                } else if (nameElement.innerHTML == "ボニー") {
+                    nameReference = "Bonnie";
+                } else if (nameElement.innerHTML == "オディール") {
+                    nameReference = "Odile";
+                }
             }
 
             // get the expression text

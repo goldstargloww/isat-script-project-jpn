@@ -15,13 +15,18 @@
     src: url(/OpenDyslexic3-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'BestTen-CRT';
+    src: url(/BestTen-CRT.ttf);
+}
+
 .head {
     padding-top: 4px;
     padding-bottom: 4px;
 }
 
 .vcr {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
 }
 
 main {
@@ -78,7 +83,7 @@ button {
     color: white;
     border-color: white;
     border: 2px solid;
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
 }
 
 /*Separate position by 40px per button*/
@@ -173,7 +178,7 @@ body {
 }
 
 .dialogue {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
     font-size: 22px;
     border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
@@ -269,7 +274,7 @@ details .dialogue {
 }
 
 .dialogue-head::after {
-    content: ":";
+    content: "：";
 }
 
 .dialogue-note {
@@ -314,7 +319,7 @@ details .dialogue {
 }
 
 .skill {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
     text-align: center;
     display: block;
 }
@@ -442,7 +447,7 @@ details .dialogue {
 
     width: 100%;
     background-color: #434343;
-    font-family: 'VCR_OSD_MONO' !important;
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO' !important;
 
     /*
      * Personal note:
@@ -547,7 +552,7 @@ h2,
 h3,
 h4 {
     color: white;
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
 
 }
 
