@@ -9,7 +9,7 @@
 
     <link href="https://felicitations.neocities.org/feed.txt" rel="alternate" type="application/rss+xml" title="ISAT Script RSS Feed!">
 
-    <script src="https://felicitations.neocities.org/bars.js" defer></script> 
+    <script src="/bars.js" defer></script> 
 
 </head>
 
@@ -41,10 +41,13 @@
     <li><a href="#flowers">Flowers</a></li>
     <li><a href="#hole">Holes</a></li>
     <li><a href="#door">Locked openphrase doors</a></li>
+    <li><a href="#locked">Locked regular doors</a></li>
     <li><a href="#save">Save points</a></li>
     <li><a href="#tears">Tears</a></li>
     <li><a href="#torch">Torches</a></li>
     <li><a href="#equipment">Refinding equipment</a></li>
+    <li><a href="#unlock">Unlocking a door</a></li>
+    <li><a href="#crest">Using a crest on tears</a></li>
     <li><a href="#act5">ACT 5</a>
         <ul>
             <li><a href="#item5">Items</a></li>
@@ -78,7 +81,7 @@
         (Oh! In Vaugarde, they say birds go "peeoo peeoo"!)
     </p>
 
-    <br>
+    <hr>
 
     <p class="dialogue-line">
         <span class="dialogue-head">
@@ -87,22 +90,41 @@
         Piou piou!
     </p>
 
-    <br>
+    <hr>
     
-    <ul>
-        <li>
-            <b>ACT 1 & 2 only:</b>
-            (Peeoo peeoo!)
-        </li>
-    </ul>
-
+    <p class="dialogue-note">ACT 1 & 2 only</p>
+        <p class="dialogue-line indented">(Peeoo peeoo!)</p>
 </div>
 
 <hr>
 <br>
 
 <h1 id="chair">Chairs and stools</h1>
-<p>The text is very often (but not always) the same, yet it's not a Common Event, for some reason.</p>
+<p>
+    The text is very often (but not always) the same, yet it's not a Common Event, for some reason. 
+    If there's more than one seat, the second line won't play, and some versions only play it in ACTs 2 and 3.
+</p>
+<p>In ACT 5, the first line plays as appropiate, and the second varies by room.</p>
+<!--dunno if i want to add it to the page (is it really generic if it's only used in one room) but here's what i found, available only to those sneaking about backstage
+
+entrance storage room and floor 1 (armory, candle dorm, break room, storage room, kitchen)
+    (But you're fine, so it'd be a waste of time to sit down.)
+
+garden, hhm office
+    (But you're fine!!!)
+
+infirmary
+    (BUT YOU'RE FINE.)
+
+trap room, openphrase123
+    (...)
+
+observatory
+    (You wish you could sit down.)
+    \shake(No no no you wouldn't you wouldn't wish for anything ever again because you know that somehow somehow somehow Wish Craft brought you here)
+
+pottery room, writing room have just say (Stool.) alone
+-->
 
 <br>
     
@@ -124,7 +146,9 @@
 
 <div class="dialogue">
 
-    <p class="dialogue-note">Before learning what it is</p>
+    <p class="dialogue-note">ACT 1</p>
+    <!--only in dormont (the stylish house and the frozen wife house), the ones in the rest of the house don't check 
+    but there's no change ornaments in the bit of the house accessible in act 1 anyway-->
     
     <p class="dialogue-line indented">
         (You're not sure what it is, but it has something to do with the Change belief.)
@@ -136,7 +160,7 @@
 
     <br>
 
-    <p class="dialogue-note">After learning what it is</p>
+    <p class="dialogue-note">ACT 2 onwards</p>
     
     <p class="dialogue-line indented">
         (A Change ornament.)
@@ -241,7 +265,7 @@
     
     <br>
 
-    <p class="dialogue-note">ACTS 3-6</p>
+    <p class="dialogue-note">ACT 3+</p>
     <p class="dialogue-line indented">(Flowers.)</p>
     
 </div>
@@ -387,6 +411,30 @@
 <hr>
 <br>
 
+<h1 id="locked">Locked regular doors</h1>
+<p>This text varies based on which key Memory of Keys is looking for, but typically follows the same format.</p>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(The door is locked.)</p>
+    <p class="dialogue-line">(The symbol over the keyhole is shaped like a [key]...)</p>
+    
+    <hr>
+     
+    <p class="dialogue-note">If you have Memory of Keys equipped but don't know where the key is</p>
+    <p class="dialogue-line indented">(Hm...)</p>
+    <p class="dialogue-line indented">(Maybe you should explore the [left/right] side of this floor...?)</p>
+    
+    <br>
+    
+    <p class="dialogue-note">With Memory of Keys and knowledge of the key's location</p>
+    <p class="dialogue-line indented">(Hm...)</p>
+    <p class="dialogue-line indented">(The key for it was on the [left/right] side, in the [room], wasn't it?)</p>
+   
+</div>
+
+<hr>
+<br>
 
 <h1 id="save">Save points</h1>
     
@@ -441,7 +489,7 @@
                         (You close your eye.)
                     </p>
                     
-                    <br>
+                    <hr>
                     
                     <p class="dialogue-note">
                         The screen fades out, and you are taken to the save screen.
@@ -739,6 +787,92 @@
         You get one Weird Point.
     </p>
 
+</div>
+
+<hr>
+<br>
+
+<h1 id="unlock">Unlocking a door</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-note">ACT 2 & 3</p>
+    <p class="dialogue-line indented">(Key time.)</p>
+    <br>
+
+    <p class="dialogue-line">(You insert the key into the keyhole, and open the door.)</p>
+
+</div>
+
+<hr>
+<br>
+
+<h1 id="crest">Using a crest on tears</h1>
+
+<div class="dialogue">
+
+    <p class="dialogue-line">(The Tear floats gently.)</p>
+
+    <br>
+
+    <p class="dialogue-note">ACT 2</p>
+    <p class="dialogue-line indented">(You have a Star Crest, so...)</p>
+
+    <br>
+
+    <p class="dialogue-line">(Use the Star Crest?)</p>
+
+    <ul class="dialogue-option">
+        <li>
+            <details>
+                <summary class="inline-note-box">
+                    <span>(Free path time!)</span>
+                    <span>ACT 2</span>
+                </summary>
+                
+                <div class="dialogue">
+                    <p class="dialogue-line">(You use the Star Crest.)</p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary class="inline-note-box">
+                    <span>(Nah.)</span>
+                    <span>ACT 2</span>
+                </summary>
+                
+                <div class="dialogue">
+                    <p class="dialogue-line">(You decide to not use the Star Crest right now.)</p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary class="inline-note-box">
+                    <span>(Yes.)</span>
+                    <span>ACT 3 onwards</span>
+                </summary>
+                
+                <div class="dialogue">
+                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, clears the tears without comment.</p>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary class="inline-note-box">
+                    <span>(No.)</span>
+                    <span>ACT 3 onwards</span>
+                </summary>
+                
+                <div class="dialogue">
+                    <p class="dialogue-note">In ACTs 3 and 4, plays the same text as using the crest in ACT 2. In ACT 5, moves away from the tears without comment.</p>
+                </div>
+            </details>
+        </li>
+    </ul>
+    
 </div>
 
 <hr>

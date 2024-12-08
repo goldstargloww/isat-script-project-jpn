@@ -5,10 +5,349 @@
   <description>Keep up to date with the In Stars And Time Script Project!</description>
   <link>https://felicitations.neocities.org/</link>
   <lastBuildDate>
-    Su,  13 Oct 2024 16:44:00 +0200
+    Fr, 06 Dec 2024 18:30:00 +1100
   </lastBuildDate>
   <ttl>20000</ttl>
 
+<item>
+  <title>ACT 6 NPCs</title>
+  <description>
+    All ACT 6 text outside of the last room.
+  </description>
+  <link>https://felicitations.neocities.org/acts/act6/act6npcs.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0090</guid>
+  <pubDate>
+    Fr, 06 Dec 2024 18:30:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Pottery Room</title>
+  <description>
+    All text for the pottery room on Floor 3.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor3/potteryroom.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0089</guid>
+  <pubDate>
+    Th, 28 Nov 2024 11:20:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Odile End Talk (ACT 6)</title>
+  <description>
+    All text for talking to Odile in the last room in ACT 6.
+  </description>
+  <link>https://felicitations.neocities.org/acts/act6/odileeend6.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0088</guid>
+  <pubDate>
+    Su, 24 Nov 2024 23:13:00 +0100
+  </pubDate>
+</item>
+
+<item>
+  <title>Enemies</title>
+  <description>
+    All text related to combat and enemies, including Examine text.
+  </description>
+  <link>https://felicitations.neocities.org/random/enemies.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0087</guid>
+  <pubDate>
+    We, 20 Nov 2024 15:20:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Bombquest</title>
+  <description>
+    All text related to making and using the bomb.
+  </description>
+  <link>https://felicitations.neocities.org/events/bombquest.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0086</guid>
+  <pubDate>
+    Mo, 18 Nov 2024 20:00:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Mirabelle's Dorm, updated</title>
+  <description>
+    Text for Mirabelle's dorm room on Floor 3, now reformatted.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor3/miradorm.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0085</guid>
+  <pubDate>
+    Mo, 18 Nov 2024 20:00:00 +1100
+>>>>>>> 6cae913b8f462a37e610afe37c12efd5f278cad0
+  </pubDate>
+</item>
+
+<item>
+  <title>Bonnie End Talk (ACT 6)</title>
+  <description>
+    All text for talking to Bonnie in the last room in ACT 6.
+  </description>
+  <link>https://felicitations.neocities.org/acts/act6/bonnieend6.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0084</guid>
+  <pubDate>
+    We, 13 Nov 2024 16:42:00 +0100
+  </pubDate>
+</item>
+
+<item>
+  <title>Writing Dorm</title>
+  <description>
+    Text for the Writing Dorm on Floor 1.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor1/writingdorm.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0083</guid>
+  <pubDate>
+    We, 13 Nov 2024 15:00:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Trap Building Room</title>
+  <description>
+    Text for the trap room on Floor 2.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor2/traproom.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0082</guid>
+  <pubDate>
+    Tu, 12 Nov 2024 20:00:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Kitchen</title>
+  <description>
+    All text for the Kitchen on floor 1.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor1/kitchen.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0081</guid>
+  <pubDate>
+    Fr, 08 Nov 2024 5:00:00 -0500
+  </pubDate>
+</item>
+    
+<item>  
+  <title>Entrance Storage Room</title>
+  <description>
+    Text for the storage room in the House's entrance.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor3/storageroom0.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0080</guid>
+  <pubDate>
+    We, 06 Nov 2024 13:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Circle Key Room</title>
+  <description>
+    Text for the room with the Circle Key in the House's entrance.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/entrance/circlekey.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0079</guid>
+  <pubDate>
+    We, 06 Nov 2024 13:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Central Rooms</title>
+  <description>
+    Text for the centre rooms of each floor.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor3/centralrooms.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0078</guid>
+  <pubDate>
+    We, 06 Nov 2024 13:45:00 +1100
+
+  </pubDate>
+</item>
+
+<item>
+  <title>KnifeKey Quest</title>
+  <description>
+    All text related to the quest for the KnifeKey.
+  </description>
+  <link>https://felicitations.neocities.org/events/knifekey.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0079</guid>
+  <pubDate>
+    Tu, 05 Nov 2024 21:20:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Mirabelle End Talk (ACT 6)</title>
+  <description>
+    Text for talking to Mirabelle in the last room in ACT 6.
+  </description>
+  <link>https://felicitations.neocities.org/acts/act6/miraend6.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0078</guid>
+  <pubDate>
+    Fr, 01 Nov 2024 14:54:00 +0100
+  </pubDate>
+</item>
+
+
+<item>
+  <title>Odilequest</title>
+  <description>
+    Updated text for Odile's friendquest.
+  </description>
+  <link>https://felicitations.neocities.org/acts/act3-4/odilequest.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0077</guid>
+  <pubDate>
+    Fr, 01 Nov 2024 16:10:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Beautiful One's House</title>
+  <description>
+    Text for the Beautiful One's house in Dormont.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/dormont/beautifulhouse.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0076</guid>
+  <pubDate>
+    Tu, 22 Oct 2024 22:50:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Odile in Dormont</title>
+  <description>
+    Text for Odile's reactions to things in Dormont during her friendquest.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/dormont/dormdile.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0075</guid>
+  <pubDate>
+    Tu, 22 Oct 2024 20:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Dormont East</title>
+  <description>
+    Text for Dormont East.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/dormont/east.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0074</guid>
+  <pubDate>
+    Tu, 22 Oct 2024 20:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Boulangerie</title>
+  <description>
+    Text for the Boulangerie.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/dormont/boulangerie.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0073</guid>
+  <pubDate>
+    Tu, 22 Oct 2024 20:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Writing Room (START AGAIN)</title>
+  <description>
+    All text for the Writing Room (with the poems and a Star Crest) in START AGAIN.
+  </description>
+  <link>https://felicitations.neocities.org/sasasap/writingroomsap.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0072</guid>
+  <pubDate>
+    Mo, 28 Oct 2024 00:30:00 +0100
+  </pubDate>
+</item>
+
+
+<item>
+  <title>End Rooms (ACT 5)</title>
+  <description>
+    All text between the King fight in ACT 5 and VS Friends. Compiled and formatted by candycoatedrox.
+  </description>
+  <link>https://felicitations.neocities.org/random/levels.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0071</guid>
+  <pubDate>
+    Sa, 19 Oct 2024 15:03:00 -0400
+  </pubDate>
+</item>
+
+<item>
+  <title>Level Milestones</title>
+  <description>
+    Assorted text for special level thresholds (learned skills + max level).
+  </description>
+  <link>https://felicitations.neocities.org/random/levels.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0070</guid>
+  <pubDate>
+    Sa, 19 Oct 2024 19:02:00 +0200
+  </pubDate>
+</item>
+
+<item>
+  <title>Bonding Earrings</title>
+  <description>
+    Text for the bonding earring sidequest.
+  </description>
+  <link>https://felicitations.neocities.org/events/bondingearrings.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0069</guid>
+  <pubDate>
+    Th, 17 Oct 2024 23:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Floor 3 Hallways</title>
+  <description>
+    Text for hallways on Floor 3.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor3/hallways3.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0068</guid>
+  <pubDate>
+    Th, 17 Oct 2024 23:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Floor 2 Hallways</title>
+  <description>
+    Text for hallways on Floor 2.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor2/hallways2.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0067</guid>
+  <pubDate>
+    Th, 17 Oct 2024 23:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>Floor 1 Hallways</title>
+  <description>
+    Text for hallways on Floor 1.
+  </description>
+  <link>https://felicitations.neocities.org/rooms/floor1/hallways1.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0066</guid>
+  <pubDate>
+    Th, 17 Oct 2024 23:45:00 +1100
+  </pubDate>
+</item>
+
+<item>
+  <title>King Fight With Friends (ACT 5)</title>
+  <description>
+    Text for the second half of the ACT 5 King Fight. Compiled and formatted by candycoatedrox
+  </description>
+  <link>https://felicitations.neocities.org/rooms/king/kingfight-act5.html</link>
+  <guid>https://felicitations.neocities.org/xml/item0065</guid>
+  <pubDate>
+    Wed, 16 Oct 2024 14:04:00 -0500
+  </pubDate>
+</item>
 
 <item>
   <title>Mirabelle's Fan</title>
@@ -16,9 +355,9 @@
     Text for the Stylish One's sidequest to give Mirabelle a gift. Updates also include associated room pages.
   </description>
   <link>https://felicitations.neocities.org/events/mirafan.html</link>
-  <guid>https://felicitations.neocities.org/xml/item0065</guid>
+  <guid>https://felicitations.neocities.org/xml/item0064</guid>
   <pubDate>
-    Su,  13 Oct 2024 16:44:00 +0200
+    Su, 13 Oct 2024 16:44:00 +0200
   </pubDate>
 </item>
 

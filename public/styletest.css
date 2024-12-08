@@ -44,6 +44,13 @@ br {
     line-height: 1.2;
 }
 
+del, s { /* strikethrough */
+    /* can't change the position of line-through; using underline and offset instead */
+    text-decoration: underline currentcolor solid 2px;
+    text-underline-offset: -0.45rem;
+    text-decoration-skip-ink: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -55,8 +62,8 @@ img {
 img.cg {
     object-fit: cover;
     object-position: top;
-    height: 460px;
-    width: 816px;
+    aspect-ratio: 204 / 115; /* native images are 816/624, cropped it's 816/460. this is that but simplified */
+    width: 816px; /* i don't know why this doesn't force it to 816px BUT IT WORKS AND I'M MOVING ON -gold */
 }
 
 button {
@@ -74,69 +81,39 @@ button {
 
 /*class for bottom right buttons */
 
-.helper {
+#helper {
+    display: block;
     position: fixed;
-    right: 30px;
+    left: 20px;
+    bottom: 20px;
     z-index: 99;
     width: 180px;
+    font-size: 16px;
+}
+
+#helper button {
+    margin: 2px;
+    padding: 7px 0;
+    width: 100%;
+    height: 40px;
+    border: 2px solid white;
     background-color: #434343;
     color: white;
-    border-color: white;
-    border: 2px solid;
-    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
-}
-
-/*Separate position by 40px per button*/
-
-#button1 {
-    bottom: 300px;
-}
-
-#button2 {
-    bottom: 260px;
-    font-size: 0.95em;
-}
-
-#button3 {
-    bottom: 220px;
-}
-
-#button4 {
-    bottom: 180px;
-}
-
-#button5 {
-    bottom: 140px;
-}
-
-#button6 {
-    bottom: 100px;
-}
-
-#button7 {
-    bottom: 20px;
-}
-
-#settings {
-    bottom: 60px;
-    text-align: center;
-    padding: 7px 16px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+    font-family: 'BestTen-CRT', 'VCR_OSD_MONO';
+    text-align: center;
+    text-decoration: none;
 }
 
-.helper:hover {
+#helper button:hover {
     background-color: #6d6d6d;
-    /* Add a dark-grey background on hover */
 }
+
+
 
 hr {
-    border: 1px white solid;
+    border: 1px #ffffff80 solid;
     margin: 2em 1em;
-    opacity: 0.5;
 }
 
 :root {
@@ -168,7 +145,7 @@ body {
     text-shadow: 1px 1px 2px white;
 }
 
-.wish2 {
+.wish-alt {
     /* same as the game */
     -webkit-text-stroke: 3px #FFF5;
 }
@@ -240,7 +217,7 @@ summary::marker {
 }
 
 .dialogue-option .dialogue-note details::before {
-    opacity: 0.5;
+    color: #ffffff80;
 }
 
 details .dialogue {
@@ -280,15 +257,22 @@ details .dialogue {
 .dialogue-note {
     display: block;
     margin: 0.5em;
-    opacity: 0.5;
-}
-.inline-note {
-    float: right;
-    margin: 0 0.5em;
-    opacity: 0.5;
+    color: #ffffff80;
 }
 .note-color {
-    opacity: 0.5;
+    color: #ffffff80;
+}
+.inline-note-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+.inline-note-box > :first-child {
+    flex: 2 1 auto;
+}
+.inline-note-box > :last-child {
+    flex: 1 1 auto;
+    color: #ffffff80;
+    text-align: right;
 }
 
 .big {
@@ -432,7 +416,7 @@ details .dialogue {
 
 /* the area below is for all links on your page EXCEPT for the navigation */
 #container a {
-    color: white;
+    color: inherit;
     font-weight: bold;
     /* if you want to remove the underline you can uncomment this: */
     /* text-decoration: none; */
