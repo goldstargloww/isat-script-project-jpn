@@ -13,55 +13,55 @@ class Header extends HTMLElement {
                 <nav class="navbar" id="desknav">
                     <ul class="vcr">
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/acts.html">Story</a></li>
-                        <li><a href="/overview/events.html">Events</a></li>
-                        <li><a href="/overview/rooms.html">Rooms</a></li>
-                        <li><a href="/overview/random.html">Random</a></li>
-                        <li><a href="/overview/sasasap.html">START AGAIN</a></li>
-                        <li><a href="/thanks.html">Special Thanks</a></li>
+                        <li><a href="/index.html">ホームページ</a></li>
+                        <li><a href="/overview/acts.html">ストーリー</a></li>
+                        <li><a href="/overview/events.html">イベント</a></li>
+                        <li><a href="/overview/rooms.html">部屋</a></li>
+                        <li><a href="/overview/random.html">他</a></li>
+                        <li><a href="/overview/sasasap.html">スタートアゲイン</a></li>
+                        <li><a href="/thanks.html">スペシャルサンクス</a></li>
                         <li><img src="/Craft.png" alt="" width="32" class="head"></li>
                     </ul>
                 </nav>
                 <nav class="navbar vcr" id="mobnav">
                     <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/overview/acts.html">Story</a></li>
-                        <li><a href="/overview/events.html">Events</a></li>
-                        <li><a href="/overview/rooms.html">Rooms</a></li>
+                        <li><a href="/index.html">ホームページ</a></li>
+                        <li><a href="/overview/acts.html">ストーリー</a></li>
+                        <li><a href="/overview/events.html">イベント</a></li>
+                        <li><a href="/overview/rooms.html">部屋</a></li>
                     </ul>
                     <ul>
-                        <li><a href="/overview/random.html">Random</a></li>
-                        <li><a href="/overview/sasasap.html">START AGAIN</a></li>
-                        <li><a href="/thanks.html">Special Thanks</a></li>
+                        <li><a href="/overview/random.html">他</a></li>
+                        <li><a href="/overview/sasasap.html">スタートアゲイン</a></li>
+                        <li><a href="/thanks.html">スペシャルサンクス</a></li>
                     </ul>
                 </nav>
 
                 <div id="flex">
                     <aside id="leftSidebar">
-                        <h2>The <abbr title="In Stars and Time">ISAT</abbr> script</h2>
+                        <h2><abbr title="イン・スターズ・アンド・タイム">ISAT</abbr>スクリプト</h2>
                         <ul>
-                            <li><a href="/about.html">About</a></li>
-                            <li><a href="/feed.xml">RSS Feed</a></li>
-                            <li><a href="/portraits">Dialogue portrait names</a></li>
-                            <li>Want to contribute? Check out <a href="https://github.com/felikatze/isat-script-project">github</a>!
-                            <li>For questions and requests, reach out on <a href="https://isat-script-project.tumblr.com/">Tumblr.</a></li>
+                            <li><a href="/about.html">まとめ</a></li>
+                            <li><a href="/feed.xml">RSSフィード</a></li>
+                            <li><a href="/portraits">会話ポートレート名</a></li>
+                            <li>貢献したいですか？<a href="https://github.com/felikatze/isat-script-project">ギットハブ</a>をチェックしてください！
+                            <li>ご質問やご要望は、<a href="https://isat-script-project.tumblr.com/">タンブラー</a>までお問い合わせください。</li>
                         </ul>
                     </aside>
                 </div>
             </div>
             <div id="helper">
                 <div id="settings" style="display: none;">
-                    <button onclick="changeWishStyle();">Change wish style</button>
-                    <button onclick="toggleAnimations();">Toggle animations</button>
-                    <button onclick="toggleExpressions();" style="font-size: 0.95em">Toggle expressions</button>
-                    <button onclick="toggleDialogue();">Toggle choices</button>
-                    <button onclick="changeFontStyle(null)">Default font</button>
-                    <button onclick="changeFontStyle('CascadiaCode')">Cascadia Code</button>
-                    <button onclick="changeFontStyle('OpenDyslexic3')">OpenDyslexic3</button>
+                    <button onclick="changeWishStyle();" style="font-size: 0.65em;">願い事のテキストの外観を変更する</button>
+                    <button onclick="toggleAnimations();" style="font-size: 0.95em;">アニメーションをトグル</button>
+                    <button onclick="toggleExpressions();" style="font-size: 0.95em">表現をトグル</button>
+                    <button onclick="toggleDialogue();">選択肢をトグル</button>
+                    <button onclick="changeFontStyle(null)">デフォルトフォント</button>
+                    <button onclick="changeFontStyle('CascadiaCode')">カスケディアコード</button>
+                    <button onclick="changeFontStyle('OpenDyslexic3')" style="font-size: 0.8em;">オープンディスレクシック3</button>
                 </div>
-                <button onclick="toggleSettings();">Settings</button>
-                <button onclick="topFunction()">Go to top</button>
+                <button onclick="toggleSettings();">設定</button>
+                <button onclick="topFunction()">トップへ戻る</button>
             </div>`
         ;
     }
@@ -75,7 +75,7 @@ class Footer extends HTMLElement {
     }
   
     connectedCallback() {
-        this.innerHTML = `<footer id="footer">The script is free to use even without attribution to me. <b>In Stars and Time</b> belongs to insertdisc5.</footer>`;
+        this.innerHTML = `<footer id="footer">このスクリプトは、私に帰属せずとも自由に使用できます。『イン・スターズ・アンド・タイム』は insertdisc5 に帰属します。</footer>`;
     }
 }
   
