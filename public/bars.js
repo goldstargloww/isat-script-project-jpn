@@ -432,6 +432,8 @@ function tooltipImages() {
                     nameReference = "Bonnie";
                 } else if (nameElement.innerHTML == "オディール") {
                     nameReference = "Odile";
+                } else if (nameElement.innerHTML == "侍祭長") {
+                    nameReference = "Euphrasie";
                 }
             }
 
